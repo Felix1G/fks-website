@@ -14,7 +14,7 @@
   }
 
   function toHomepage() {
-    window.location.href = "?page=home";
+    window.location.href = "/";
   }
 
   function menuSelect(code) {
