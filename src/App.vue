@@ -1,4 +1,5 @@
 <script setup>
+  import 'vite/modulepreload-polyfill'
   import { ref, onMounted, onUnmounted } from 'vue'
   import headerComp from './components/Header.vue'
   import homepageComp from './components/Homepage.vue'

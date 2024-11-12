@@ -8,6 +8,13 @@ export default defineConfig({
   server: {
     host: true
   },
+  build: {
+    manifest: true,
+    rollupOptions: {
+      input: 'src/main.js',
+    },
+  },
+  manifest: true,
   plugins: [vue()],
   resolve: {
     alias: {
