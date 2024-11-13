@@ -1,0 +1,21 @@
+{
+  "src/assets/profile.png": {
+    "file": "assets/profile-e350be61.png",
+    "src": "src/assets/profile.png"
+  },
+  "src/main.css": {
+    "file": "assets/main-e900947b.css",
+    "src": "src/main.css"
+  },
+  "src/main.js": {
+    "assets": [
+      "assets/profile-e350be61.png"
+    ],
+    "css": [
+      "assets/main-e900947b.css"
+    ],
+    "file": "assets/main-1d8a96ed.js",
+    "isEntry": true,
+    "src": "src/main.js"
+  }
+}
