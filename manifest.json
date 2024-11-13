@@ -1,21 +1,21 @@
 {
-  "src/assets/profile.png": {
-    "file": "assets/profile-e350be61.png",
-    "src": "src/assets/profile.png"
+  "index.css": {
+    "file": "assets/index-e900947b.css",
+    "src": "index.css"
   },
-  "src/main.css": {
-    "file": "assets/main-e900947b.css",
-    "src": "src/main.css"
-  },
-  "src/main.js": {
+  "index.html": {
     "assets": [
       "assets/profile-e350be61.png"
     ],
     "css": [
-      "assets/main-e900947b.css"
+      "assets/index-e900947b.css"
     ],
-    "file": "assets/main-1d8a96ed.js",
+    "file": "assets/index-99000924.js",
     "isEntry": true,
-    "src": "src/main.js"
+    "src": "index.html"
+  },
+  "src/assets/profile.png": {
+    "file": "assets/profile-e350be61.png",
+    "src": "src/assets/profile.png"
   }
 }
