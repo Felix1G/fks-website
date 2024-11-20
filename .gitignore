@@ -26,3 +26,5 @@ coverage
 *.sw?
 
 .ssh
+
+dist
