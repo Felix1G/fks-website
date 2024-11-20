@@ -1,5 +1,5 @@
 <script setup>
-  import { ref } from 'vue'
+  import { ref, inject } from 'vue'
 
   let openMenuToggle = ref(false);
   let menuTextElem = ref(null);
@@ -13,33 +13,23 @@
       menuTextElem.value.style.color = "black";
   }
 
+  var page = inject('page');
+
   function toHomepage() {
-    window.location.href = "/";
+    page.value = 0;
   }
 
   function menuSelect(code) {
-    switch (code) {
-      case 0:
-        toHomepage();
-        break;
-      case 1:
-        window.location.href = "/about";
-        break;
-      case 2:
-        window.location.href = "/creations";
-        break;
-      case 3:
-        window.location.href = "/writings";
-        break;
-    }
+    page.value = code;
+    openMenuToggle.value = false;
   }
 </script>
 
 <template>
   <div id="container">
     
-    <div class="textContainer" @click="toHomepage" style="float: left;margin-left: 5%">
-      <p>F</p>
+    <div id="logoContainer" @click="toHomepage" style="float: left;margin-left: 5%">
+      <img @click="toHomepage()" src="../assets/logo.svg">
     </div>
 
     <div id="menuContentDiv">
@@ -47,7 +37,7 @@
         <p><b>MENU</b></p>
       </div>
       
-      <ul v-if="openMenuToggle">
+      <ul v-if="openMenuToggle" id="menuContentWrap">
         <li><a @click="menuSelect(0)">Home</a></li>
         <li><a @click="menuSelect(1)">About</a></li>
         <li><a @click="menuSelect(2)">Creations</a></li>
@@ -70,6 +60,7 @@
     background-size: 100% 3px;
     background: linear-gradient(60deg, #39e382, #1cd2ff);
     border-bottom: #29b395 5px solid;
+    animation: fadeIn 1.5s ease;
   }
   
   #container p {
@@ -95,6 +86,22 @@
     user-select: none;
   }
 
+  #logoContainer {
+    margin-top: 5px;
+  }
+
+  #logoContainer img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: transform 0.25s;
+  }
+  
+  #logoContainer img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+
   #menuContentDiv ul {
     list-style-type: none;
     padding: 0;
@@ -106,7 +113,7 @@
 
   #menuContentDiv ul a {
     display: block;
-    width: 30vw;
+    width: 150px;
     padding: 1vh 1vw;
     text-align: right;
     font-family: verdana;
@@ -117,5 +124,10 @@
 
   #menuContentDiv ul a:hover {
     background-color: #aaffaa;
+  }
+
+  #menuContentWrap {
+    position: relative;
+    z-index: 999;
   }
 </style>

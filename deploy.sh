@@ -3,6 +3,9 @@
 # build
 npm run build
 
+eval "$(ssh-agent -s)"
+ssh-add .ssh/id_rsa
+
 # navigate into the build output directory
 cd dist
 

@@ -45,6 +45,8 @@
     animation: fadeIn 1.5s ease-out, offsetYIn 1.5s ease-out;
     text-align: center;
     width: 60%;
+    display: flex;
+    justify-content: center;
   }
 
   #imageDiv img {
@@ -66,6 +68,7 @@
     font-family: Verdana;
     font-size: 1.8em;
     text-align: left;
+    margin-top: 5%;
   }
 
   #textDiv p {
@@ -81,7 +84,7 @@
     height: 10vh;
     border-radius: 5vh;
     font-family: Verdana;
-    font-size: 4vh;
+    font-size: 3vh;
     cursor: pointer;
   }
 

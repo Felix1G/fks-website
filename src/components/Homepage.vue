@@ -59,7 +59,6 @@
   
   #imgWrap {
     text-align: center;
-    animation: fadeIn 2.0s linear;
     width: 100%;
   }
 
@@ -93,7 +92,7 @@
   #subtitle {
     font-family: Verdana;
     font-size: 1.5em;
-    margin: 4vh 1em;
+    margin: 4vh 5vw;
     text-align: justify;
     user-select: none;
   }
@@ -115,6 +114,11 @@
 
   @keyframes offsetYIn {
     0% { transform: translate(0, 20px); }
+    100% { transform: translate(0); }
+  }
+  
+  @keyframes offsetLeftIn {
+    0% { transform: translate(-20px, 0); }
     100% { transform: translate(0); }
   }
 </style>

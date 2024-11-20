@@ -1,21 +1,71 @@
 {
+  "index.css": {
+    "file": "assets/index-2b402c8f.css",
+    "src": "index.css"
+  },
+  "index.html": {
+    "assets": [
+      "assets/logo-892a8fe8.svg",
+      "assets/profile-e350be61.png",
+      "assets/noi-9b3e504b.jpg",
+      "assets/nrc-0e9900c8.jpg",
+      "assets/food0-553b56ab.jpg",
+      "assets/food1-b8506796.jpg",
+      "assets/food2-3d7997af.jpg",
+      "assets/food3-d2a5b137.jpg",
+      "assets/food4-1c69d256.jpg",
+      "assets/food5-9cecffbc.jpg",
+      "assets/food6-f023d940.jpg"
+    ],
+    "css": [
+      "assets/index-2b402c8f.css"
+    ],
+    "file": "assets/index-b8cc67a1.js",
+    "isEntry": true,
+    "src": "index.html"
+  },
+  "src/assets/food/food0.jpg": {
+    "file": "assets/food0-553b56ab.jpg",
+    "src": "src/assets/food/food0.jpg"
+  },
+  "src/assets/food/food1.jpg": {
+    "file": "assets/food1-b8506796.jpg",
+    "src": "src/assets/food/food1.jpg"
+  },
+  "src/assets/food/food2.jpg": {
+    "file": "assets/food2-3d7997af.jpg",
+    "src": "src/assets/food/food2.jpg"
+  },
+  "src/assets/food/food3.jpg": {
+    "file": "assets/food3-d2a5b137.jpg",
+    "src": "src/assets/food/food3.jpg"
+  },
+  "src/assets/food/food4.jpg": {
+    "file": "assets/food4-1c69d256.jpg",
+    "src": "src/assets/food/food4.jpg"
+  },
+  "src/assets/food/food5.jpg": {
+    "file": "assets/food5-9cecffbc.jpg",
+    "src": "src/assets/food/food5.jpg"
+  },
+  "src/assets/food/food6.jpg": {
+    "file": "assets/food6-f023d940.jpg",
+    "src": "src/assets/food/food6.jpg"
+  },
+  "src/assets/logo.svg": {
+    "file": "assets/logo-892a8fe8.svg",
+    "src": "src/assets/logo.svg"
+  },
+  "src/assets/noi.jpg": {
+    "file": "assets/noi-9b3e504b.jpg",
+    "src": "src/assets/noi.jpg"
+  },
+  "src/assets/nrc.jpg": {
+    "file": "assets/nrc-0e9900c8.jpg",
+    "src": "src/assets/nrc.jpg"
+  },
   "src/assets/profile.png": {
     "file": "assets/profile-e350be61.png",
     "src": "src/assets/profile.png"
-  },
-  "src/main.css": {
-    "file": "assets/main-e900947b.css",
-    "src": "src/main.css"
-  },
-  "src/main.js": {
-    "assets": [
-      "assets/profile-e350be61.png"
-    ],
-    "css": [
-      "assets/main-e900947b.css"
-    ],
-    "file": "assets/main-1d8a96ed.js",
-    "isEntry": true,
-    "src": "src/main.js"
   }
 }
