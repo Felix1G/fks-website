@@ -1,6 +1,6 @@
 {
   "index.css": {
-    "file": "assets/index-1f33ce8d.css",
+    "file": "assets/index-2b402c8f.css",
     "src": "index.css"
   },
   "index.html": {
@@ -18,9 +18,9 @@
       "assets/food6-f023d940.jpg"
     ],
     "css": [
-      "assets/index-1f33ce8d.css"
+      "assets/index-2b402c8f.css"
     ],
-    "file": "assets/index-0c5ca531.js",
+    "file": "assets/index-b8cc67a1.js",
     "isEntry": true,
     "src": "index.html"
   },
