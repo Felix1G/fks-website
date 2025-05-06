@@ -22,11 +22,15 @@
 
 <script>
   import profileImage from '@/assets/profile.png';
+  import qrcodegenImage from '@/assets/qrcodegen.png';
+  import raytracerImage from '@/assets/raytracer.png';
 
   export default {
     data() {
       return {
         profileImage,
+        qrcodegenImage,
+        raytracerImage
       };
     },
   };
@@ -40,6 +44,13 @@
       highlight: false
     },
     {
+      image: qrcodegenImage,
+      title: "QR Code Generator",
+      desc: "QR code generator for all languages, up to version 40 (the largest version for a QR code).",
+      link: "https://github.com/Felix1G/qr-code-gen",
+      highlight: true
+    },
+    {
       image: profileImage,
       title: "Felix's JSON Parser",
       desc: "A JSON parser that supports comments. It is a library written in Rust and can be used in any language that supports Rust. Explore to find out more!",
@@ -47,7 +58,7 @@
       highlight: true
     },
     {
-      image: profileImage,
+      image: raytracerImage,
       title: "Felix's Raytracer Project",
       desc: "A project I created able to perform raytracing. However, it can only utilise the CPU. Nonetheless, it is able to support models, textures, reflections, and pointlights. Explore to find out more!",
       link: "https://github.com/Felix1G/fksraytracer",
