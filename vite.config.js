@@ -3,6 +3,7 @@ import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
+// https://5173-idx-felixwebsite-1743948952533.cluster-6dx7corvpngoivimwvvljgokdw.cloudworkstations.dev/
 // https://vitejs.dev/config/
 export default defineConfig({
   server: {
@@ -21,5 +22,5 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  },
+  }
 })

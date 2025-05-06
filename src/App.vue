@@ -22,22 +22,30 @@
 
 <script>
   import profileImage from '@/assets/profile.png';
-  import qrcodegenImage from '@/assets/qrcodegen.png';
-  import raytracerImage from '@/assets/raytracer.png';
+  import webImage from '@/assets/icon/webicon.svg';
+  import qrcodegenImage from '@/assets/icon/qrcodegen.png';
+  import raytracerImage from '@/assets/icon/raytracer.png';
+  import neuralNetImage from '@/assets/icon/aiicon.svg';
+  import jsonImage from '@/assets/icon/jsonicon.svg';
+  import osImage from '@/assets/icon/osicon.svg';
 
   export default {
     data() {
       return {
         profileImage,
+        webImage,
         qrcodegenImage,
-        raytracerImage
+        raytracerImage,
+        neuralNetImage,
+        jsonImage,
+        osImage
       };
     },
   };
 
   const creations = [
     {
-      image: profileImage,
+      image: webImage,
       title: "Felix's Website",
       desc: "The website you are at right now. Explore to find out more about the code behind this website!",
       link: "https://github.com/Felix1G/fks-website",
@@ -51,7 +59,7 @@
       highlight: true
     },
     {
-      image: profileImage,
+      image: jsonImage,
       title: "Felix's JSON Parser",
       desc: "A JSON parser that supports comments. It is a library written in Rust and can be used in any language that supports Rust. Explore to find out more!",
       link: "https://github.com/Felix1G/fks-json",
@@ -65,14 +73,14 @@
       highlight: false
     },
     {
-      image: profileImage,
+      image: osImage,
       title: "Crypthantus OS",
       desc: "A small project to learn more about kernel programming. It is an x86 kernel written in Assembly and in C. Though, I do not plan to continue this project further, explore to find out what had already been done so far!",
       link: "https://github.com/Felix1G/CrypthantusOS",
       highlight: false
     },
     {
-      image: profileImage,
+      image: neuralNetImage,
       title: "Felix's Neural Network API",
       desc: "A simple library written in rust to create simple Feed Forward Networks and Convoluted Neural Networks. Explore to find out more! (To find out how they work, click on the 'Inner Workings' link inside the GitHub page.)",
       link: "https://github.com/Felix1G/fksainetwork",
