@@ -38,9 +38,22 @@
         raytracerImage,
         neuralNetImage,
         jsonImage,
-        osImage
+        osImage,
+        bgColors: ['#f8f6f7', '#f8f6e7', '#f8f1f7', '#f1f8f7'],
+        curIdx: 0
       };
     },
+    mounted() {
+      this.startBgColorCycle();
+    },
+    methods: {
+      startBgColorCycle() {
+        setInterval(() => {
+          this.curIdx = (this.curIdx + 1) % this.bgColors.length;
+          document.body.style.backgroundColor = this.bgColors[this.curIdx];
+        }, 6000);
+      }
+    }
   };
 
   const creations = [
@@ -151,10 +164,9 @@
   }
   
   body {
-    background-color: #e6f7ec;
     display: block;
     margin: 10px;
-    transition: 1.0s background-color ease-in;
+    transition: 2.0s background-color ease-in;
   }
   
   #headerCompDiv {

@@ -4,7 +4,7 @@
   const headParagraph = ref("I am a secondary student interested in <b>game development</b>, <b>programming</b>, and <b>computer science</b>. I have been creating games and building projects since 2021. As a student who also competes nationally, I also have a lot of experience in <b>competitive programming</b>.");
   const bodyParagraph0 = ref("&nbspI had lived in Medan for the most of my life. Only recently, I studied in Singapore. After having studied there for more than a year, life has definitely changed a lot for me. However, one thing never changes - <b>my interest in programming and game development</b>. I pursued in the hobby since <b>January 2021</b>. In fact, one reason I started was to create a modified version of Minecraft. Since then, I created <b>many more games and side projects</b>.");
   const bodyParagraph1 = ref("Today, I am working on a PC game and a few side projects, so as studying for my O Levels this year. Indeed, I have a learnt a lot from my experiences in the past. I have also been able to learn a lot from <b>myself</b>, such as being discipline to complete the projects that I started.");
-  const compParagraph = ref("I believe competitions test your abilities and skills, giving the opportunity to enhance them. I have won in competitions, such as the <b>Bronze award</b> for the <b>National Olympiads of Informatics (NOI) 2024</b> (top picture), and the <b>Best Presentation award</b> as a team for the <b>National Robotics Competition (NRC) 2024</b> (bottom picture). These competitions have taught me the skills required and given me the drive to keep going.");
+  const compParagraph = ref("I believe competitions test your abilities and skills, giving the opportunity to enhance them. I have won in competitions, such as the <b>Bronze award</b> for the <b>National Olympiads of Informatics (NOI) 2024</b> (top picture) and the <b>Silver Award</b> for <b>NOI 2025</b>, and the <b>Best Presentation award</b> as a team for the <b>National Robotics Competition (NRC) 2024</b> (bottom picture). These competitions have taught me the skills required and given me the drive to keep going.");
   const cookParagraph = ref("Outside my studies and programming, I also enjoy <b>cooking</b>. I have been cooking for more than a year, creating homemade dishes from recipes I find in social media or recipes I create myself. My favorite method of cooking is <b>stir frying</b> as it is very easy to make and equally tastes scrumptious. In fact, cooking is part of my routine in my dormitory.");
 </script>
 
@@ -33,6 +33,7 @@
       <div id="competitionBox">
         <div id="competitionImg">
           <img src="../assets/noi.jpg" alt="NOI"/>
+          <img src="../assets/noi25.jpg" alt="NRC"/>
           <img src="../assets/nrc.jpg" alt="NRC"/>
         </div>
         <div class="textBox">
