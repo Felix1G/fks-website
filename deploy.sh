@@ -16,7 +16,7 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git remote set-url origin git@github.com:Felix1G/fks-website.git
+git remote add origin git@github.com:Felix1G/fks-website.git
 git push -u -f origin main:gh-pages
 
 cd -

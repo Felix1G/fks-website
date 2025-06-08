@@ -1,6 +1,6 @@
 {
   "index.css": {
-    "file": "assets/index-2b402c8f.css",
+    "file": "assets/index-7b417c28.css",
     "src": "index.css"
   },
   "index.html": {
@@ -8,6 +8,7 @@
       "assets/logo-892a8fe8.svg",
       "assets/profile-e350be61.png",
       "assets/noi-9b3e504b.jpg",
+      "assets/noi25-ea770325.jpg",
       "assets/nrc-0e9900c8.jpg",
       "assets/food0-553b56ab.jpg",
       "assets/food1-b8506796.jpg",
@@ -15,12 +16,17 @@
       "assets/food3-d2a5b137.jpg",
       "assets/food4-1c69d256.jpg",
       "assets/food5-9cecffbc.jpg",
-      "assets/food6-f023d940.jpg"
+      "assets/food6-f023d940.jpg",
+      "assets/webicon-9ea44670.svg",
+      "assets/raytracer-1ccd9f44.png",
+      "assets/aiicon-d1a2f9ef.svg",
+      "assets/jsonicon-22bd0111.svg",
+      "assets/osicon-97fad705.svg"
     ],
     "css": [
-      "assets/index-2b402c8f.css"
+      "assets/index-7b417c28.css"
     ],
-    "file": "assets/index-b8cc67a1.js",
+    "file": "assets/index-c311713e.js",
     "isEntry": true,
     "src": "index.html"
   },
@@ -52,6 +58,26 @@
     "file": "assets/food6-f023d940.jpg",
     "src": "src/assets/food/food6.jpg"
   },
+  "src/assets/icon/aiicon.svg": {
+    "file": "assets/aiicon-d1a2f9ef.svg",
+    "src": "src/assets/icon/aiicon.svg"
+  },
+  "src/assets/icon/jsonicon.svg": {
+    "file": "assets/jsonicon-22bd0111.svg",
+    "src": "src/assets/icon/jsonicon.svg"
+  },
+  "src/assets/icon/osicon.svg": {
+    "file": "assets/osicon-97fad705.svg",
+    "src": "src/assets/icon/osicon.svg"
+  },
+  "src/assets/icon/raytracer.png": {
+    "file": "assets/raytracer-1ccd9f44.png",
+    "src": "src/assets/icon/raytracer.png"
+  },
+  "src/assets/icon/webicon.svg": {
+    "file": "assets/webicon-9ea44670.svg",
+    "src": "src/assets/icon/webicon.svg"
+  },
   "src/assets/logo.svg": {
     "file": "assets/logo-892a8fe8.svg",
     "src": "src/assets/logo.svg"
@@ -59,6 +85,10 @@
   "src/assets/noi.jpg": {
     "file": "assets/noi-9b3e504b.jpg",
     "src": "src/assets/noi.jpg"
+  },
+  "src/assets/noi25.jpg": {
+    "file": "assets/noi25-ea770325.jpg",
+    "src": "src/assets/noi25.jpg"
   },
   "src/assets/nrc.jpg": {
     "file": "assets/nrc-0e9900c8.jpg",
